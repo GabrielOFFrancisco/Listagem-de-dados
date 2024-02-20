@@ -39,7 +39,7 @@ export function Pagination({ items, page, pages }: PaginationProps) {
   }
 
   function nextPage() {
-    if (page + 1 > pages) {
+    if (page + 1 >= pages) {
       return;
     }
 
@@ -78,7 +78,6 @@ export function Pagination({ items, page, pages }: PaginationProps) {
         <span>
           Page {page} of {pages}
         </span>
-
         <div className='space-x-1.5'>
           <Button onClick={firstPage} size='icon' disabled={page - 1 <= 0}>
             <ChevronsLeft className='size-4' />
