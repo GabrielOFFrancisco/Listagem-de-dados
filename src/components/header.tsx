@@ -68,12 +68,14 @@ export function Header() {
 
       <div className='flex items-center gap-3'>
         <div className='flex flex-col items-end gap-0.5'>
-          <span className='text-sm font-medium'>Diego Fernandes</span>
-          <span className='text-xs text-zinc-400'>diego@nivo.video</span>
+          <span className='text-sm font-medium'>Gabriel Olimpio</span>
+          <span className='text-xs text-zinc-400'>
+            gabriel.offrancisco@gmail.com
+          </span>
         </div>
         <img
-          src='https://github.com/diego3g.png'
-          className='size-8 rounded-full'
+          src='https://avatars.githubusercontent.com/u/128921650?v=4'
+          className='size-10 rounded-full'
           alt=''
         />
         <ChevronDown className='size-4 text-zinc-600' />
